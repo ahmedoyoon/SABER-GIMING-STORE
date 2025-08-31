@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - شحن ببجي موبايل</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- شريط التحميل -->
+    <div class="loading-animation">
+        <div class="loader"></div>
+        <p>SABER GIMING  جاري التحميل...</p>
+    </div>
+
+    <!-- شريط التنقل -->
+    <nav class="animated-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="مكان الصورة "alt="SABER GIMINGLogo" class="logo-img">
+                <span class="logo-text">اسم المتجر </span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                <li><a href="#products" class="nav-link">خدمات الشحن</a></li>
+                <li><a href="#about" class="nav-link">من نحن</a></li>
+                <li><a href="#contact" class="nav-link">اتصل بنا</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <header id="home" class="hero-section">
+        <div class="video-background">
+            <video autoplay muted loop id="pubgVideo">
+                <source src="WhatsApp Video 2025-07-29 at 6.10.12 PM.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-charcter">SABER GIMING</h1>
+            <p class="hero-subtitle">أسرع وأأمن متجر لشحن ببجي موبايل</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary pulse">اشتري الآن <i class="fas fa-arrow-left"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم الخدمات -->
+    <section id="products" class="products-section">
+        <div class="section-header">
+            <h2>خدمات الشحن <span class="highlight">ببجي موبايل</span></h2>
+            <p>اختر الخدمة التي تريدها واستمتع بأفضل الأسعار</p>
+        </div>
+        
+        <div class="products-grid">
+            <!-- بطاقة UC -->
+            <div class="product-card">
+                <div class="product-badge hot">الأكثر طلباً</div>
+<img src="11zon_resized.png" alt=">شحن (ID)" class="product-image">
+                <h3>شحن (ID) </h3>
+                <div class="product-prices">
+                    <div class="price-option">
+                        <span class="uc-amount">60UC</span>
+                        <span class="price">00 EGP</span>
+                    </div>
+                    <div class="price-option">
+                        <span class="uc-amount">325UC</span>
+                        <span class="price">00 EGP</span>
+                         </div>
+                    <div class="price-option">
+                        <span class="uc-amount">660UC</span>
+                        <span class="price">00 EGP</span>
+                    </div>
+                    <div class="price-option">
+                        <span class="uc-amount">1800UC</span>
+                        <span class="price">00 EGP</span>
+                          </div>
+                    <div class="price-option">
+                        <span class="uc-amount">3850UC</span>
+                        <span class="price">00 EGP</span>
+                    </div>
+          <h3>شحن ب الحساب (QR)</h3>
+          </div>
+        
+                       <div class="price-option">
+                        <span class="uc-amount">60UC</span>
+                        <span class="price">00 EGP</span>
+                                     </div>
+                    <div class="price-option">
+                        <span class="uc-amount">325UC</span>
+                        <span class="price">00 EGP</span>
+                         </div>
+                    <div class="price-option">
+                        <span class="uc-amount">660UC</span>
+                        <span class="price">00 EGP</span>
+                    </div>
+                    <div class="price-option">
+                        <span class="uc-amount">1800UC</span>
+                        <span class="price">00 EGP</span>
+                          </div>
+                    <div class="price-option">
+                        <span class="uc-amount">3850UC</span>
+                        <span class="price">00 EGP</span>
+                   
+                </div>
+                <button class="btn btn-product" onclick="orderViaWhatsApp('شحن US')">أطلب عبر واتساب <i class="fab fa-whatsapp"></i></button>
+            </div>
+                                    
+            <!-- عروض شحن الازدهار   -->
+            <div class="product-card">
+                <div class="product-badge new">جديد</div>
+                <div class="product-image account-image"></div>
+                <h3>شحن الازدهار </h3 >
+                <div class="product-prices">
+                    <div class="price-option">
+                        <span class="uc-amount"> ازدهار اول </span>
+                        <span class="price">00 EGP</span>
+                    </div>
+                    <div class="price-option">
+                        <span class="uc-amount"> ازدهار ثاني </span>
+                        <span class="price">00 EGP</span>
+     </div>
+                         <div class="price-option">
+                        <span class="uc-amount"> ازدهار ثالث </span>
+                        <span class="price">00 EGP</span>
+                    </div>
+                </div>
+                <button class="btn btn-product" onclick="orderViaWhatsApp('بطاقة الموسم')">أطلب عبر واتساب <i class="fab fa-whatsapp"></i></button>
+            </div>
+            
+            <!-- بطاقة الحسابات -->
+            <div class="product-card">
+<img src="download.jpg" alt=">حسابات ببجي" class="product-image">
+                <h3>حسابات ببجي</h3>
+                <div class="product-prices">
+                    <div class="price-option">
+                        <span class="uc-amount">حساب عادي</span>
+                        <span class="price">على حسب امكانيات الحساب </span>
+                    </div>
+
+                    
+                    <div class="price-option">
+                        <span class="uc-amount">حساب متوسط</span>
+                        <span class="price">على حسب امكانيات الحساب </span>
+                     </div>
+                    <div class="price-option">
+                        <span class="uc-amount">حساب مميز</span>
+                        <span class="price">على حسب امكانيات الحساب </span>
+                    </div>
+                </div>
+                <button class="btn btn-product" onclick="orderViaWhatsApp('حساب ببجي')">أطلب عبر واتساب <i class="fab fa-whatsapp"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المميزات -->
+    <section class="features-section">
+        <div class="section-header">
+            <h2>لماذا <span class>SABER GIMING</span>؟</h2>
+            <p>نقدم لك أفضل خدمة بأسرع وقت</p>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>شحن فوري</h3>
+                <p>شحن UC خلال دقائق معدودة بعد التأكد من الدفع</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>آمن 100%</h3>
+                <p>مدفوعات آمنة عبر التحويل البنكي أو المحافظ الإلكترونية</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>دعم فني</h3>
+                <p>دعم فني على مدار الساعة لمساعدتك في أي مشكلة</p>
+            </div>
+            
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-percentage"></i>
+                </div>
+                <h3>عروض حصرية</h3>
+                <p>خصومات وعروض خاصة للمشتركين في القناة</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم من نحن -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-content">
+                <h2>من نحن؟</h2>
+                <p>SABER GIMING هو متجر متخصص في شحن العملات والخدمات لألعاب ببجي موبايل. نقدم خدماتنا منذ عام 2020 ولدينا آلاف العملاء الراضين عن خدماتنا.</p>
+                <p>نحن نضمن لك شحن آمن وسريع مع دعم فني متكامل لمساعدتك في أي وقت.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="5000">0</span>+
+                        <span class="stat-label">عملاء</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="99">0</span>%
+                        <span class="stat-label">رضا العملاء</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="24">0</span>/7
+                        <span class="stat-label">دعم فني</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="" alt="SABER GIMING" class="about-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم اتصل بنا -->
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <h2>تواصل <span class="highlight">معنا</span></h2>
+            <p>يسعدنا تواصلك معنا في أي وقت</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>الواتساب</h3>
+                        <a href="https://wa.me/201031400423" class="contact-link">01031400423</a>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>فيسبوك</h3>
+                        <a href="" class="contact-link"></a>
+                    </div>
+                </div>
+                
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fab fa-telegram"></i>
+                    </div>
+                    <div class="info-content">
+                        <h3>تيلجرام</h3>
+                        <a href="" class="contact-link"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="" alt="SABER GIMING" class="footer-logo-img">
+                <h3>SABER GIMING</h3>
+                <p>أفضل متجر لشحن ببجي موبايل</p>
+            </div>
+            
+            <div class="footer-links">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#products">خدمات الشحن</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <h3>تابعنا</h3>
+                <div class="social-icons">
+                    <a href="https://chat.WhatsApp.com/Ktcf5T9EOExJVuf8ARdPBZ?mode=ems_wa_t" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-tiktok"></i></a>
+                    <a href="" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://www.facebook.com/share/1SPKEVL5zR/" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom"> 
+            <p>&copy; 2023 SABER GIMING. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+
+    <!-- زر العودة للأعلى -->
+    <button class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
