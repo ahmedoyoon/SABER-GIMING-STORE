@@ -182,7 +182,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // دالة الطلب عبر واتساب
-function orderViaWhatsApp(productName) {
-    const whatsappUrl = `https://wa.me/201031400423?text=مرحباً، أريد شراء ${encodeURIComponent(productName)} من Gangste Store`;
+function orderViaWhatsApp(productName){
+    const whatsappUrl = `https://wa.me/201031400423?text=مرحباً، أريد شراء ${encodeURIComponent(productName)} من SABER GIMING}
+`;
     window.open(whatsappUrl, '_blank');
 }
